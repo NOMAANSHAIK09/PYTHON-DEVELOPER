@@ -1,0 +1,7 @@
+fsrc = input("file to copy from:")
+ct=open(fsrc,'r')
+cnts=ct.read()
+fdest=input("where to copy:")
+dt=open(fdest,'w')
+dt.write(cnts)
+print("coped")
