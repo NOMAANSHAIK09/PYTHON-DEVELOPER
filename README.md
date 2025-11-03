@@ -15,7 +15,7 @@ It contains practice exercises, projects, and implementations of core concepts i
 
 ## 🛠 Tech Stack
 - **Languages**: Python 3.x  
-- **Libraries**: NumPy, Pandas, Matplotlib, Tkinter, Flask/Django  
+- **Libraries**: NumPy, Pandas, Matplotlib, Tkinter, Flask/Django,stremlit,
 - **Tools**: Git, GitHub, Jupyter Notebook, VS Code, PyCharm  
 - **Databases**: SQLite, MySQL, MongoDB  
 
