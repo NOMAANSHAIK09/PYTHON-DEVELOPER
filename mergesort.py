@@ -20,3 +20,14 @@ while i < len(lst1):
     i+=1
     print(lstres)
     print(lstres)
+
+
+lst=[2,3,5,15,251,7,17,20,30,35,4]
+def mergesort(lst):
+    if len(lst) <=1 :
+        return 
+    mid = len(lst)//2
+    leftlst= mergesort(lst,0,mid)
+    rightlst= mergesort(lst,mid,len(lst))
+    return sortedmerged(leftlst,rightlst) 
+    
